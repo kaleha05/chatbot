@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:http/http.dart';
 import 'package:rafiki_bot/pages/home.dart';
+import 'package:rafiki_bot/pages/landingPage.dart';
 
 void main() {
   runApp(const MyApp());
@@ -15,9 +16,9 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(
-        primarySwatch: Colors.green,
+        primarySwatch: Colors.blue,
       ),
-      home:  HomePage(),
+      home:  LandingPage(),
     );
   }
 }
