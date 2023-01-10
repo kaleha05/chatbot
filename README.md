@@ -1,6 +1,6 @@
 # rafiki_bot
 
-A new Flutter project.
+A chatbot that uses the ChatGPT API.
 
 ## Getting Started
 
